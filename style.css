@@ -110,6 +110,15 @@ flex-direction: column;
 
 }
 
+.btn-login > a{
+    text-decoration: none;
+    color:#2b134b;
+}
+
+.btn-login:hover{
+    background-color: #0099A1;
+}
+
 .section{
     width: 100%;
     border: none;

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+html{
+  scroll-behavior: smooth ;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans' , sans-serif;  
+    background: #201b2c;
+   }
+
+   .logo{
+    border: 5px solid #fff;
+    width: 13%;
+   
+   }
+
+   .link>a{
+    text-decoration: none;
+    color:#64E2FF;
+   }
+
+   .link{
+    list-style: none;
+   }
+
+   .container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+   }
+
+   header, footer{
+    background-color:#64e3ff88;
+    padding: 3%;
+    position: relative;
+   }
+
+   .titilo{
+    color:#64E2FF;
+    font-size: 3vw;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+   }
+
+   .compra>a{
+    text-decoration: none;
+    color:#64E2FF;
+   }
+
+   .imagem-uni{
+    flex-direction: column;
+   }
+
+    .imagem{
+     width: 20rem;
+     height: 25rem;
+     margin-bottom: 1rem;
+     margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    box-shadow: 0px 10px 40px -12px #0099A1;
+    }
+
+    .imagemgol{
+      width: 28rem;
+      height: 25rem;
+      margin-bottom: 1rem;
+      margin-left: 0.5rem;
+     margin-right: 0.5rem;
+     box-shadow: 0px 10px 40px -12px #0099A1;
+    }
+
+    .subtituloE{
+      color:#64E2FF;
+      font-size: 2vw;
+      border-bottom: 0.5rem;
+    }
+
+    .subtituloC{
+      color:#64E2FF;
+    }
+
+    .subtituloD{
+      color:#64E2FF;
+    }
+   
+
+   .centro{
+    height: 306px;
+    position: absolute;
+    left: 334px;
+    border: solid 4px white;
+    background-color: white;
+   }
+
+   .penalesquerda{
+    border: solid 3px white;
+    background-color: white;
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    left: 155px;
+   }
+
+   .penaldireita{
+    border: solid 3px white;
+    background-color: white;
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    right: 155px;
+   }
+
+   .traveesquerda{
+    width: 36.25px;
+    height: 72.45px;
+    border: solid 4.5px white;
+    position: absolute;
+    left: 0px;
+   }
+
+   .travedireita{
+    width: 36.25px;
+    height: 72.45px;
+    border: solid 4.5px white;
+    position: absolute;
+    right: 0px;
+   }
+
+   .luaesquerda{
+    border: solid 6px white;
+    position: absolute;
+    height: 215px;
+    width: 90px;
+    left: 0%;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+   }
+
+   .luadireita{
+    border: solid 6px white;
+    position: absolute;
+    height: 215px;
+    width: 90px;
+    right: 0px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+   }
+
+   .campo{
+    background-color: #97bb87;
+    width: 670px;
+    height: 334px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 10px 40px -12px #97bb87a1;
+   }
+
+   .linha {
+    border: solid 6px white;
+   }
+
+   .lateral{
+    margin: 10px;
+    height: 306px;
+    width: 642px;
+    top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .area{
+    width: 85px;
+    height: 169.5px;
+    position: absolute;
+   }
+
+   .esquerda{
+    border-left: 0;
+    left: 0px;
+   }
+
+   .direita{
+    border-right: 0;
+    right: 0px;
+   }
+
+   .circulo{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    position: relative;
+    left: 261px;
+   }
+
+   .jogador{
+    position: absolute;
+    border: solid 4px grey;
+    width: 25px;
+    height:25px;
+    border-radius: 100%;
+   }
+
+  .jogador>h3{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    text-align: center;
+  }
+
+   .gol{
+    left: 15px;
+    text-align: center;
+   }
+
+   .nome1{
+    left: 8px;
+    bottom: 98px;
+    position: absolute;
+   }
+
+   .fixo{
+    left: 200px;
+    text-align: center;
+   }
+
+   .nome11{
+    position: absolute;
+    left: 190px;
+    bottom: 98px;
+   }
+
+
+   .alaD{
+    left: 300px;
+    bottom: 45px;
+    text-align-last: justify;
+   }
+
+   .nome10{
+    position: absolute;
+    left: 295px;
+    bottom: 5px;
+   }
+
+   .alaE{
+    left: 300px;
+    top: 50px;
+    text-align: center;
+   }
+
+   .nome7{
+    left: 280px;
+    position: absolute;
+    top: 62px;
+   }
+
+   .pivo{
+    left: 500px; 
+    text-align-last: center;
+   }
+
+   .nome9{
+    left: 490px;
+    position: absolute;
+    bottom: 93px;
+   }
