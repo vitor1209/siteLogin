@@ -25,10 +25,11 @@ body{
 
    .link{
     list-style: none;
+
    }
 
    .container{
-    width: 80%;
+    width: min-content;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -39,11 +40,12 @@ body{
     background-color:#64e3ff88;
     padding: 3%;
     position: relative;
+    width: 100%;
    }
 
    .titilo{
     color:#64E2FF;
-    font-size: 3vw;
+    font-size: 3rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
    }
@@ -79,14 +81,17 @@ body{
       color:#64E2FF;
       font-size: 2vw;
       border-bottom: 0.5rem;
+      font-size: 2rem;
     }
 
     .subtituloC{
       color:#64E2FF;
+      font-size: 2rem;
     }
 
     .subtituloD{
       color:#64E2FF;
+      font-size: 2rem;
     }
    
 
@@ -276,3 +281,13 @@ body{
     position: absolute;
     bottom: 93px;
    }
+
+   @media only screen and (max-width: 600px){
+
+    header, footer{
+      width: 200%;
+    }
+
+   }
+
+
